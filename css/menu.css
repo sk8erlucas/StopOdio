@@ -3,6 +3,7 @@
 
 .burger {
 	display: none;
+	z-index: 999;
 }
 
 #hamb_menu {
@@ -10,6 +11,19 @@
 	margin-top: 10px;
 	text-align: left;
 	font-size: 1rem;
+	z-index: 999;
+}
+
+.main-nav {
+	z-index: 999;
+}
+
+.main-nav ul {
+	z-index: 999;
+}
+
+.main-nav ul li {
+	z-index: 999;
 }
 
 /* Menos de 768 */
