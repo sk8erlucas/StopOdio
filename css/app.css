@@ -81,7 +81,7 @@ a:hover {
   width: 280px;
   display: flex;
   align-items: center;
-  z-index: 3;
+  z-index: 6000;
   pointer-events: none;
 }
 .logo__img {
@@ -840,9 +840,6 @@ border: 2px solid var(--btn-main-background) 0.25s ease;
       height: 150px;
     }
   
-    .main-nav {
-      display: none;
-    }
   .container.is-fluid {
     padding-top: 60px;
 

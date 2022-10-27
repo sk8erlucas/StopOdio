@@ -27,31 +27,22 @@
         <span class="logo__img"></span>
     </div>
 	
-    <div id="burger" class="burger">		
-        <button class="burger__open" onClick="ToogleOnOff()">
-			<span></span>
-			<span></span>
-			<span></span>
-			
-			<ul id="hamb_menu">
-				<li><a href="#key">Identificar</a></li>
-				<li><a href="#key-combat">Combatir</a></li>
-				<li><a href="#key-feminist">Claves feministas</a></li>
-				<li><a href="#resources">Recursos</a></li>
-			</ul>
-        </button>
-    </div>
-	
-	<script>		
-		function ToogleOnOff() {
-		  var x = document.getElementById("hamb_menu");
-		  if (x.style.display === "block") {
-			x.style.display = "none";
-		  } else {
-			x.style.display = "block";
-		  }
-		}
-	</script>
+	<section class="top-nav">
+    	<div>
+    	</div>
+    	
+		<input id="menu-toggle" type="checkbox" />
+    	<label class="menu-button-container" for="menu-toggle">
+    		<div class="menu-button"></div>
+  		</label>
+    
+		<ul class="menu">
+		  <li><a href="#key">Identificar</a></li>
+		  <li><a href="#key-combat">Combatir</a></li>
+		  <li><a href="#key-feminist">Claves feministas</a></li>
+		  <li><a href="#resources">Recursos</a></li>
+    	</ul>
+  	</section>
 	
     <div class="menu-overlay">
     <nav id="nav-main" class="main-nav">
