@@ -342,7 +342,7 @@ section {
 /* Keys Section */
 .key-identify{
   width: 100%;
-  height: 140vh; 
+  height: 200vh;
   overflow: hidden;
   color: var(--text-color);
   position: relative;
@@ -350,7 +350,7 @@ section {
 }
 .key-combat {
   width: 100%;
-  height: 110vh;
+  height: 150vh;
   overflow: hidden;
   color: var(--text-color);
   position: relative;
